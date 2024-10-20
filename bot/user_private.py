@@ -4,7 +4,7 @@ from aiogram.filters import CommandStart, Command
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import requests
 from pprint import pprint
-from config import token, EDAMAM_APP_ID,EDAMAM_APP_KEY
+from bot.config import token, EDAMAM_APP_ID,EDAMAM_APP_KEY
 user_private_router = Router()
 
 menu_keyboard = ReplyKeyboardMarkup(
